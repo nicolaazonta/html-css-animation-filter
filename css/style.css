@@ -133,13 +133,64 @@
 
 /* #region---------EX-10 */
 
+.ex-10-icon{
+    font-size: 6rem;
+    animation-name: tagada_1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+@keyframes tagada_1{
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+    }
+}
 
 /* #endregion */
 
 /* #region---------EX-11 */
+.ex-11-icon{
+    font-size: 6rem;
+}
+
+.ex-11-icon:hover{
+    animation-name: tagada_2;
+    animation-name: tagada_3;
+    animation-duration: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ;
+}
+
+@keyframes tagada_2{
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 270deg;
+    }
+}
+@keyframes tagada_3{
+    0%{
+        rotate: 270deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
+
 /* #endregion */
 
 /* #region---------EX-12 */
+
 /* #endregion */
 
 /* #region---------EX-13 */
