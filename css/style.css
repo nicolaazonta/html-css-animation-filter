@@ -1,0 +1,165 @@
+/* #region---------EX-1 */
+.ex-1-square{
+    width: 200px;
+    height: 200px;
+    background-color: initial;
+    border: 1px solid red;
+    transition: background-color 0.8s;
+}
+.ex-1-square:hover{
+    background-color: red;
+}
+/* #endregion */
+
+/* #region---------EX-2 */
+.ex-2-square{
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    border: 1px solid red;
+    transition: width 0.8s;
+}
+.ex-2-square:active {
+    width: 100%;
+}
+/* #endregion */
+
+/* #region---------EX-3 */
+.ex-3-square{
+    width: 200px;
+    height: 200px;
+    background-color:aqua;
+    border: 1px solid aqua;
+    border-radius: initial;
+    transition: border-radius 0.8s;
+}
+.ex-3-square:hover{
+    border-radius: calc(200px / 2);
+}
+
+/* #endregion */
+
+/* #region---------EX-4 */
+.ex-4-square{
+    width: 200px;
+    height: 200px;
+    background-color:coral;
+    border: 1px solid coral;
+    border-radius: initial;
+    transition: border,background-color 1s;
+}
+.ex-4-square:hover{
+    border: initial;
+    background-color: initial;
+}
+/* #endregion */
+
+/* #region---------EX-5 */
+.ex-5-square{
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color:greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: initial;
+    transition-property: width, background-color;
+    transition-duration: 1s;
+}
+.ex-5-square:hover{
+    width: 250px;
+    background-color: rgb(47, 255, 175);
+}
+.ex-5-square:active{
+    width: 150px;
+    background-color: rgb(78, 255, 47);
+}
+/* #endregion */
+
+/* #region---------EX-6 */
+
+.ex-6-img{
+    filter: none;
+    transition: filter 1s;
+}
+
+.ex-6-img:hover{
+    filter: grayscale();
+}
+
+/* #endregion */
+
+/* #region---------EX-7 */
+
+.ex-7-img{
+    filter: none;
+    transition-property: filter ;
+    transition-duration:1s;
+}
+
+.ex-7-img:hover{
+    filter:saturate(.5) contrast(.8) ;
+}
+
+/* #endregion */
+
+/* #region---------EX-8 */
+.ex-8-img{
+    border-radius: none;
+    filter: none;
+    transition-property: filter, border-radius;
+    transition-duration:1s;
+}
+
+.ex-8-img:hover{
+    filter: saturate(.5) contrast(.8) ;
+    border-radius: 30px;
+}
+/* #endregion */
+
+/* #region---------EX-9 */
+.ex-9-img{
+    border-radius: none;
+    filter: none;
+    scale: none;
+    transition-property: filter, border-radius scale;
+    transition-duration:1s;
+}
+
+.ex-9-img:hover{
+    filter: saturate(.5) contrast(.8) ;
+    border-radius: 30px;
+    scale: 80%;
+}
+/* #endregion */
+
+/* #region---------EX-10 */
+
+
+/* #endregion */
+
+/* #region---------EX-11 */
+/* #endregion */
+
+/* #region---------EX-12 */
+/* #endregion */
+
+/* #region---------EX-13 */
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
